@@ -34,39 +34,7 @@
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
-
-<nav class="navbar main-nav navbar-expand-lg p-0">
-  <div class="container">
-    <a class="navbar-brand" href="index.php"><img src="images/12.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ti-menu"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown active dropdown-slide">
-          <a class="nav-link" href="#" data-toggle="dropdown">Home
-            <span><i class="ti-angle-down"></i></span>
-          </a>
-          <!-- Dropdown list -->
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="index.php">Homepage</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="#" data-toggle="dropdown">Tugas
-            <span><i class="ti-angle-down"></i></span>
-          </a>
-          <!-- Dropdown list -->
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="team.php">Tugas 1</a>
-            <a class="dropdown-item" href="career.html">Tugas 2</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include('nav.php') ?>
 
 <!--====================================
 =            Hero Section            =
@@ -93,7 +61,7 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
-				<h1 class="text-white font-weight-bold mb-4">Be a great Programmer</h1>
+				<h1 class="text-white font-weight-bold mb-4">Welcome to our project</h1>
 				<p class="text-white mb-5"></p>
 				
 			</div>
@@ -111,7 +79,7 @@
 			<div class="row">
 				<div class="col-md-4 mb-4 mb-md-0 text-center">
 					<i class="ti-desktop text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">pwpb</h3>
+					<h3 class="mt-4 text-capitalize h5 ">Be a great programmer</h3>
 				</div>
 				<div class="col-md-4 mb-4 mb-md-0 text-center">
 					<i class="ti-face-smile text-primary h1"></i>

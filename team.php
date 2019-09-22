@@ -56,38 +56,7 @@ $hasil = $jumlah/3;
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
-
-<nav class="navbar main-nav navbar-expand-lg p-0">
-  <div class="container">
-    <a class="navbar-brand" href="index.php"><img src="images/12.png" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ti-menu"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown active dropdown-slide">
-          <a class="nav-link" href="#" data-toggle="dropdown">Home
-            <span><i class="ti-angle-down"></i></span>
-          </a>
-          <!-- Dropdown list -->
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="index.php">Homepage</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link" href="#" data-toggle="dropdown">Tugas
-            <span><i class="ti-angle-down"></i></span>
-          </a>
-          <!-- Dropdown list -->
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="team.html">Tugas 1</a>
-            <a class="dropdown-item" href="career.html">Tugas 2</a>
-          </div>
-        </li>
-    </div>
-  </div>
-</nav>
+<?php include("nav.php");?>
 
 <!--================================
 =            Page Title            =
