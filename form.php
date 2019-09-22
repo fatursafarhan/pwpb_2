@@ -152,6 +152,10 @@
             <div class="col-md-6">
 							<input class="form-control main" name="noK" type="number" placeholder="NO. HP" required>
             </div>
+             <!-- Alamat -->
+             <div class="col-12">
+              <input class="form-control main" name="alamat" type="text" placeholder="Alamat" required>
+			      </div>
 
             <div class="col-12">
 				      <h2 class="mb-4">Data Ayah kandung</h2>
@@ -255,6 +259,7 @@
       echo "Nomor Telepon:".$_POST['noT']."<br>";
       echo "No HP:".$_POST['noH']."<br>";
       echo "No KPS:".$_POST['noK']."<br><br>"; 
+      echo "Alamat:".$_POST['alamat']."<br>";
       echo "Data Ayah Kandung<br>";
       echo "Nama Ayah:".$_POST['nama']."<br>";
       echo "Tahun Lahir:".$_POST['tahun']."<br>";
